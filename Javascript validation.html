@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title> title of the </title>
+    <script type="text/javascript">
+        function validate()
+        {
+            var name=document.getElementById ("name").value;
+            var username=document.getElementById("name").value;
+            var reusername=document.getElementById("reuname").value;
+            var password=document.getElementById("passsword").value;
+            var age=document.getElementById("age").value;
+            var email=document.getElementById("email").value;
+            var atpos=email.lastindexof("@").value;
+            var dotpos=email.lastindexof(".").value;
+            if (name=="// name.length<1")
+        {
+            document.write("Name is empty");
+            return false;
+        }
+        if (username==""|| Username.length<1)
+{
+    document.write ("username is empty");
+    return false;
+}
+if (username!=reusername)
+{
+    document.write ("username & reusername is not same");
+    return false;
+}
+if (password=""||password.length<6)
+{
+    document.write("password is less than 6 characters");
+    return false;
+}
+if (age=="" || is (age))
+{
+    document.write ("Age is not a number");
+    return false;
+}
+if (atpos<2 ||(dotpos-atpos)<2)
+{
+    document.write ("email format is not correct");
+    return false;
+}
+}
+</script>
+</head>
+<body>
+    <form method ="POST">
+        </form>
+        </body>
+        </html>
+    
